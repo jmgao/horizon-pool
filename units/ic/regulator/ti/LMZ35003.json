@@ -1,0 +1,80 @@
+{
+    "manufacturer": "Texas Instruments",
+    "name": "LMZ35003",
+    "pins": {
+        "09220f3d-ea6b-48f2-8ff0-268a00a9b29a": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "SS/TR",
+            "swap_group": 0
+        },
+        "0eb80d89-78dd-4b54-8199-f61a4387f9d0": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "STSEL",
+            "swap_group": 0
+        },
+        "2f15b4b8-6ff4-4589-baa1-e0ade3169bb2": {
+            "direction": "not_connected",
+            "names": [],
+            "primary_name": "PH",
+            "swap_group": 0
+        },
+        "316350d9-8511-448d-a6ac-535bff4c09ec": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "PGND",
+            "swap_group": 0
+        },
+        "4cad53e7-f070-48e3-ad3c-9257d782729f": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VIN",
+            "swap_group": 0
+        },
+        "4e0782fe-a30b-40ee-a9fe-0c7710a837bd": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND_PT",
+            "swap_group": 0
+        },
+        "62dda9af-b66b-4e90-83b2-be835e08d17f": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "VADJ",
+            "swap_group": 0
+        },
+        "7691a815-a89c-4ad9-9c10-f4950f265b17": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "AGND",
+            "swap_group": 0
+        },
+        "9fcbeee3-512e-4905-a11d-f25b79f1d009": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "RT/CLK",
+            "swap_group": 0
+        },
+        "b73ba6a3-7b9e-4cc8-b4cd-f80670dfd559": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "INH/UVLO",
+            "swap_group": 0
+        },
+        "d49bad57-45df-4ae6-9df6-073c4c1ab9b7": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "VOUT",
+            "swap_group": 0
+        },
+        "f583a7d4-c09f-41f2-a71e-d8613aed5059": {
+            "direction": "open_collector",
+            "names": [],
+            "primary_name": "PWRGD",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "7484163b-a0b6-4352-bbe1-ca065313814b"
+}

@@ -1,0 +1,20 @@
+{
+    "gates": {
+        "5d9fe764-b4b7-49a1-9b70-bc5d12405f5c": {
+            "name": "Main",
+            "suffix": "",
+            "swap_group": 0,
+            "unit": "7484163b-a0b6-4352-bbe1-ca065313814b"
+        }
+    },
+    "manufacturer": "Texas Instruments",
+    "name": "LMZ35003",
+    "prefix": "U",
+    "tags": [
+        "dcdc",
+        "ic",
+        "regulator"
+    ],
+    "type": "entity",
+    "uuid": "2fa168eb-08f0-49a3-b8c6-bd98aeb3306e"
+}

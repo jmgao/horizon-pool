@@ -1,0 +1,403 @@
+{
+    "holes": {},
+    "name": "SMD rectangular (bevelled)",
+    "padstack_type": "top",
+    "parameter_program": "get-parameter [ pad_width ] -2 / get-parameter [ bottom_left_x_contraction ] +\nget-parameter [ pad_height ] -2 /\n\nget-parameter [ pad_width ] 2 / get-parameter [ bottom_right_x_contraction ] -\nget-parameter [ pad_height ] -2 /\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_right_y_contraction ] +\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] 2 / get-parameter [ top_right_y_contraction ] -\n\nget-parameter [ pad_width ] 2 / get-parameter [ top_right_x_contraction ] -\nget-parameter [ pad_height ] 2 /\n\nget-parameter [ pad_width ] -2 / get-parameter [ top_left_x_contraction ] +\nget-parameter [ pad_height ] 2 /\n\nget-parameter [ pad_width ] -2 /\nget-parameter [ pad_height ] 2 / get-parameter [ top_left_y_contraction ] -\n\nget-parameter [ pad_width ] -2 /\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_left_y_contraction ] +\n\nset-polygon-vertices [ copper_polygon 8 ]\n\n\n\nget-parameter [ pad_width ] -2 / get-parameter [ bottom_left_x_contraction ] + get-parameter [ solder_mask_expansion ] -\nget-parameter [ pad_height ] -2 / get-parameter [ solder_mask_expansion ] -\n\nget-parameter [ pad_width ] 2 / get-parameter [ bottom_right_x_contraction ] - get-parameter [ solder_mask_expansion ] +\nget-parameter [ pad_height ] -2 / get-parameter [ solder_mask_expansion ] -\n\nget-parameter [ pad_width ] 2 / get-parameter [ solder_mask_expansion ] +\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_right_y_contraction ] + get-parameter [ solder_mask_expansion ] -\n\nget-parameter [ pad_width ] 2 / get-parameter [ solder_mask_expansion ] +\nget-parameter [ pad_height ] 2 / get-parameter [ top_right_y_contraction ] - get-parameter [ solder_mask_expansion ] +\n\nget-parameter [ pad_width ] 2 / get-parameter [ top_right_x_contraction ] - get-parameter [ solder_mask_expansion ] +\nget-parameter [ pad_height ] 2 / get-parameter [ solder_mask_expansion ] +\n\nget-parameter [ pad_width ] -2 / get-parameter [ top_left_x_contraction ] + get-parameter [ solder_mask_expansion ] -\nget-parameter [ pad_height ] 2 / get-parameter [ solder_mask_expansion ] +\n\nget-parameter [ pad_width ] -2 / get-parameter [ solder_mask_expansion ] -\nget-parameter [ pad_height ] 2 / get-parameter [ top_left_y_contraction ] - get-parameter [ solder_mask_expansion ] +\n\nget-parameter [ pad_width ] -2 / get-parameter [ solder_mask_expansion ] -\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_left_y_contraction ] + get-parameter [ solder_mask_expansion ] -\n\nset-polygon-vertices [ mask_polygon 8 ]\n\n\n\n\nget-parameter [ pad_width ] -2 / get-parameter [ bottom_left_x_contraction ] + get-parameter [ paste_mask_contraction ] +\nget-parameter [ pad_height ] -2 / get-parameter [ paste_mask_contraction ] +\n\nget-parameter [ pad_width ] 2 / get-parameter [ bottom_right_x_contraction ] - get-parameter [ paste_mask_contraction ] -\nget-parameter [ pad_height ] -2 / get-parameter [ paste_mask_contraction ] +\n\nget-parameter [ pad_width ] 2 / get-parameter [ paste_mask_contraction ] -\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_right_y_contraction ] + get-parameter [ paste_mask_contraction ] +\n\nget-parameter [ pad_width ] 2 / get-parameter [ paste_mask_contraction ] -\nget-parameter [ pad_height ] 2 / get-parameter [ top_right_y_contraction ] - get-parameter [ paste_mask_contraction ] -\n\nget-parameter [ pad_width ] 2 / get-parameter [ top_right_x_contraction ] - get-parameter [ paste_mask_contraction ] -\nget-parameter [ pad_height ] 2 / get-parameter [ paste_mask_contraction ] -\n\nget-parameter [ pad_width ] -2 / get-parameter [ top_left_x_contraction ] + get-parameter [ paste_mask_contraction ] +\nget-parameter [ pad_height ] 2 / get-parameter [ paste_mask_contraction ] -\n\nget-parameter [ pad_width ] -2 / get-parameter [ paste_mask_contraction ] +\nget-parameter [ pad_height ] 2 / get-parameter [ top_left_y_contraction ] - get-parameter [ paste_mask_contraction ] -\n\nget-parameter [ pad_width ] -2 / get-parameter [ paste_mask_contraction ] +\nget-parameter [ pad_height ] -2 / get-parameter [ bottom_left_y_contraction ] + get-parameter [ paste_mask_contraction ] +\n\nset-polygon-vertices [ paste_polygon 8 ]",
+    "parameter_set": {
+        "bottom_left_x_contraction": 200000,
+        "bottom_left_y_contraction": 200000,
+        "bottom_right_x_contraction": 200000,
+        "bottom_right_y_contraction": 200000,
+        "hole_diameter": 660000,
+        "hole_length": 610000,
+        "pad_height": 1600000,
+        "pad_width": 1700000,
+        "paste_mask_contraction": 0,
+        "solder_mask_expansion": 100000,
+        "top_left_x_contraction": 200000,
+        "top_left_y_contraction": 200000,
+        "top_right_x_contraction": 200000,
+        "top_right_y_contraction": 200000
+    },
+    "parameters": {
+        "bottom_left_x_contraction": {
+            "name": "Bottom Left X Contraction"
+        },
+        "bottom_left_y_contraction": {
+            "name": "Bottom Left Y Contraction"
+        },
+        "bottom_right_x_contraction": {
+            "name": "Bottom Right X Contraction"
+        },
+        "bottom_right_y_contraction": {
+            "name": "Bottom Right Y Contraction"
+        },
+        "top_left_x_contraction": {
+            "name": "Top Left X Contraction"
+        },
+        "top_left_y_contraction": {
+            "name": "Top Left Y Contraction"
+        },
+        "top_right_x_contraction": {
+            "name": "Top Right X Contraction"
+        },
+        "top_right_y_contraction": {
+            "name": "Top Right Y Contraction"
+        }
+    },
+    "parameters_required": [],
+    "polygons": {
+        "37d27e2c-0eaa-4a86-b0cd-f6f26ac05b24": {
+            "layer": 0,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        300000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        300000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        300000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "78b7b207-50e6-4ab5-9f1c-e5bd4d4497b0": {
+            "layer": 10,
+            "parameter_class": "mask_polygon",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        -900000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        -900000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        950000,
+                        -700000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        950000,
+                        700000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        900000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        900000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -950000,
+                        700000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -950000,
+                        -700000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "8e5f4b1a-1340-4028-bdcf-5039aef70ce3": {
+            "layer": 0,
+            "parameter_class": "copper_polygon",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -650000,
+                        -800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        650000,
+                        -800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        850000,
+                        -600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        850000,
+                        600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        650000,
+                        800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -650000,
+                        800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -850000,
+                        600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -850000,
+                        -600000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "d07e363c-3c3c-4795-8296-4afee5858fab": {
+            "layer": 30,
+            "parameter_class": "paste_polygon",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -650000,
+                        -800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        650000,
+                        -800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        850000,
+                        -600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        850000,
+                        600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        650000,
+                        800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -650000,
+                        800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -850000,
+                        600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -850000,
+                        -600000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "shapes": {},
+    "type": "padstack",
+    "uuid": "17f9bc6a-3e74-4157-9347-5c050b80d33a",
+    "well_known_name": ""
+}
